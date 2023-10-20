@@ -50,6 +50,9 @@ button:active{
     height: 100px;
     padding: 8px;
 }
+.container{
+    padding-top: 60px;
+}
 
 @media only screen and (max-width: 991px){
     #logo{
@@ -98,7 +101,7 @@ button:active{
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:500px) {
     #cbut{
         width: 100%;
         font-size: 13px;
@@ -106,6 +109,12 @@ button:active{
     }
     #codeButton{
         display: block!important;
-        padding-top: 10px;
+    }
+    #inst-btn{
+        font-size: .88rem;
+    }
+    .container{
+        margin-top: -80px;
+        font-size: 69%;
     }
 }
