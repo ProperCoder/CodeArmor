@@ -29,7 +29,6 @@ a{
 
 @media only screen and (min-width:798px){
     .d-flex.flex-column.flex-shrink-0.p-3.text-bg-dark{
-        width: 1rem;
         font-size: 90%;
      }
 
