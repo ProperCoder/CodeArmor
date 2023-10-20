@@ -35,7 +35,7 @@ body{
     background-color: #176ae6;
     border-color: black;
     color: white;
-    font-size: 210%;
+    font-size: 200%;
 }
 #inst-btn:hover{
     background-color: #0047b2;
@@ -112,5 +112,8 @@ button:active{
     }
     #readmore{
         margin:0%;
+    }
+    #inst-btn{
+        font-size: 105%;
     }
 }
