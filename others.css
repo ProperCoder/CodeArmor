@@ -1,0 +1,102 @@
+body{
+    background-color: #35A29F;
+}
+
+#para{
+    padding-left: 6px;
+    padding-right: 6px;
+    color: darkslategray
+    
+}
+.d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-start{
+    background-color: black;
+}
+
+#looks{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.dataBox{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+}
+
+.buttons{
+    display: flex;
+    padding-top: 18%;
+    padding-bottom: 9%;
+    justify-content: center;
+    gap:5%;
+}
+#inst-btn{
+    background-color: #176ae6;
+    border-color: black;
+    color: white;
+    font-size: 210%;
+}
+#inst-btn:hover{
+    background-color: #0047b2;
+}
+button:active{
+    transform: translateY(2px);
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+}
+@media only screen and (max-width: 991px){
+    #logo{
+        width: 100%;
+        height: 5.4rem;
+    }
+    #cbut{
+        font-size: 100%;
+    }
+    #looks{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .dataBox{
+        display: inline-block;
+    }
+    #myCarousel{
+        font-size: 11px;
+    }
+    .buttons{
+        font-size: 83%;
+        display: grid;
+        gap: 30%;
+        grid-template-columns: .55fr;
+        padding-bottom: 100px;
+        padding-top: 13%;
+        width: 110%;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    #inst-btn{
+        font-size: 2rem;
+    }
+    .buttons{
+        font-size: 93%;
+        display: grid;
+        gap: 30%;
+        grid-template-columns: .5fr;
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-start{
+        font-size: 70%;
+    }
+    #logo{
+        width: 100%;
+    } 
+}
