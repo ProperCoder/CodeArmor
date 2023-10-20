@@ -5,7 +5,7 @@ body{
 #para{
     padding-left: 6px;
     padding-right: 6px;
-    color: darkslategray
+    color: darkslategryy
     
 }
 .d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-start{
@@ -49,13 +49,18 @@ button:active{
     height: 100px;
     padding: 8px;
 }
+
 @media only screen and (max-width: 991px){
     #logo{
         width: 100%;
         height: 5.4rem;
     }
     #cbut{
+        width: 100%;
         font-size: 100%;
+    }
+    #codeButton{
+        display: inline-flex!important;
     }
     #looks{
         padding-left: 5%;
@@ -92,11 +97,14 @@ button:active{
     }
 }
 
-@media only screen and (max-width:320px) {
-    .d-flex.flex-wrap.align-items-center.justify-content-center.justify-content-lg-start{
-        font-size: 70%;
-    }
-    #logo{
+@media only screen and (max-width:480px) {
+    #cbut{
         width: 100%;
-    } 
+        font-size: 13px;
+        margin-bottom: 7%;
+    }
+    #codeButton{
+        display: block!important;
+        padding-top: 10px;
+    }
 }
