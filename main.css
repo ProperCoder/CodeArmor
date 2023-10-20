@@ -114,6 +114,9 @@ a{
     #home{
         text-align: start;
     }
+    .container{
+        font-size: 12px;
+    }
 
 }
 
